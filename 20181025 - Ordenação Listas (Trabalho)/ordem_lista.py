@@ -8,12 +8,6 @@ from os import *
 def ordena_lista(lstLista):
    lstLista_Ord = lstLista
 	#Implementar o algoritmo de ordenação
-   for j in range (0, len(lstLista_Ord)):
-      for i in range (0, len(lstLista_Ord)-1):
-         if (lstLista_Ord[i] > lstLista_Ord[i+1]):
-            auxiliar          = lstLista_Ord[i+1]
-            lstLista_Ord[i+1] = lstLista_Ord[i]
-            lstLista_Ord[i]   = auxiliar	
    return lstLista_Ord
 # --------------------------------------------------------------------------
 
