@@ -2,8 +2,8 @@ frutas = [['laranja', 10, 1.50], ['manga', 30, 2.25], ['abacaxi', 25, 1.25], ['m
 
 nome_fruta = input('informe a fruta: ')
 
-estoque_fruta = 0
-valor_venda = 0
+estoque_fruta = None
+valor_venda = None
 
 for x in range(0, len(frutas)):
    if frutas[x][0] == nome_fruta:
